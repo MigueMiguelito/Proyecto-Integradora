@@ -1,0 +1,38 @@
+
+h1 {
+text-align: center;
+	text-emphasis-color: black;
+	font-family:cursive;
+	font-size:2em;
+    }
+
+.caja{
+    position: relative;
+    border: 10px groove black;
+    top:10px;
+    bottom: ;
+    right: ;
+    left: 550px;
+    width: 50%;
+    height: 135%;
+    padding:2em;
+    background: #F3A71A;
+}
+
+.logo{
+    position: fixed;
+    border: 10px groove black;
+    top: 10px;
+    bottom: ;
+    right: ;
+    left: 30px;
+    width: 30%;
+    height: 84%;
+    padding: 2em;
+    background: #FF9941;
+}
+
+body{
+    background: #FBF811;
+    cursor: hand;
+}
