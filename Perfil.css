@@ -1,0 +1,28 @@
+.Relativo{
+    border: 5px solid Black;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: #9BF5EB;
+    position: relative;
+    left: 300px;
+    bottom: 290px;
+    
+}
+
+.Estático{
+    border: 5px solid Black;
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: #9BF5EB;
+    position: static;
+    
+    
+}
+body {
+  background-color: #F86868;
+  
+}
