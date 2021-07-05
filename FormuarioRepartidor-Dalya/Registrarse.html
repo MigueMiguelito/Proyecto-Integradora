@@ -1,0 +1,41 @@
+<html>
+<link rel="shortcut icon" type="image/x-icon" href="delishop.ico">
+<div class="logo">
+<center>
+    <p><img src="delishop.ico" width="300" alt="logotipo"></p>
+    <p><h1>¡BIENVENIDO!</h1>
+</center>
+</div>
+<div class="caja">
+    <p><h2> <center>REGISTRATE.</center></h2></p>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="estilosregistro.css">
+
+<fieldset>
+    <legend>DATOS PERSONALES.</legend>
+<form action="/Integradora/registrado.php" method="post">
+    <span>
+   	
+        <label>Nombre completo: </label><p><input type="text" name="nombre" placeholder="Escribe tu nombre completo" size"30"></p><br>
+    </span>
+    <span>
+    <label>Sexo <br>
+		<input type="radio" name="sex" value="Male"> Masculino <br>
+		<input type="radio" name="sex" value="Female"> Femenino <br><br>
+        </label>
+    </span>
+    <p class="fallbackLabel">Fecha de nacimiento:</p>
+    <p><input type="date" name="fecha" placeholder="Escribe tu fecha de nacimiento" size"30"></p><br>
+    <p class="fallbackLabel">Edad:</p>
+    <p><input type="number" name="edad" placeholder="edad" size"30"></p><br>
+    <p class="fallbackLabel">Correo electronico:</p>
+    <p><input type="email" name="correo" placeholder="Correo electronico" size"30"></p><br>
+    <p class="fallbackLabel">Contraseña:</p>
+    <p><input type="password" name="contraseña" placeholder="contraseña" size"30"></p><br>
+    
+<p><input type="submit" value="REGISTRARSE"/></p>
+
+    </form>
+    </fieldset>
+
+</html>

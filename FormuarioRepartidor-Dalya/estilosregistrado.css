@@ -1,0 +1,24 @@
+h1{
+ font-family: "Segoe UI";
+ width: 100%;
+ height: 100%
+ margin:0;
+}
+
+body{ 
+ background: #F3A71A;
+}
+
+.caja1{
+   position: absolute;
+    border: 20px double black;
+    top:10px;
+    bottom: ;
+    right: ;
+    left: 300px;
+    width: 50%;
+    height: 50%;
+    padding:2em;
+    background: #FBF811;
+
+}
