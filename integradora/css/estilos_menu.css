@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    max-width:100%;
+    min-width:50%;
+    max-height:100%;
+    min-height:50%;
+    background-color: #f5f7a2;
+    color:blue;/*Prueba si funciona tú enlace de hoja de estilos*/
+}
+.seccion_uno{
+    background-color: rgba(233, 233, 233);
+    /*height:550px;*/
+    width:500px;
+    max-width:100%;
+    padding:35px;
+    margin-right:10%;
+    margin-top:6%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    float: right;
+    position:relative;
+}
+label, input{
+    font-size:20px;
+    background: transparent;
+    border:none;
+    margin-top:40px;
+    color: black;
+
+}
+
+.izquierda{
+width:360px;
+height:730px;
+position: fixed;
+float: left;
+margin: 0%;
+z-index:-100%;
+box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.logos{
+    position: fixed;
+    width: 150px;
+    margin-top: 25px;
+    margin-left:20px;
+}
+
+input:focus{
+
+    outline: 1px solid rgba(0, 0, 0, 0.0);
+    background: transparent;
+}
+.imenu{
+    border-bottom:1px solid black;
+    font-family: "bellfoods";
+}
+label,.h2u{
+    font-family:"cooper black";
+    color: black;
+}
+.h2u{
+    text-align: center;
+    margin-bottom:40px;
+}
+.boton{
+    border-radius:8px;
+    border-color:rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    background-color: rgb(0, 99, 16);
+    cursor: pointer;
+    color: white;
+    width:120px;
+    font-size:18px;
+    margin-top:20px;
+    justify-content: center;
+}
+.boton:hover{
+    text-transform: uppercase;
+    transition: 0.3s;
+    width:120px;
+}
+/*input file*/
+.inimage {          
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border-style:solid;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    width:150px;
+  }
+   
+  .inimage::before {
+    background-color: #c2c2c2;
+    color: rgb(0, 0, 0);
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccionar'; /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;                
+  }
+   
+  .inimage input[type="file"] {
+    opacity: 0;
+    width: 120px;
+    height: 20px;
+    display: inline-block;            
+  }
+   
+  #inimage::before {
+    content: 'Seleccionar Archivo 1';
+  }

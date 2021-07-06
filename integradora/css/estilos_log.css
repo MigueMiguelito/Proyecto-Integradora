@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    max-width:100%;
+    min-width:50%;
+    max-height:100%;
+    min-height:50%;
+    color:RED;/*Prueba si funciona tú enlace de hoja de estilos*/
+}
+
+.formulario_uno{
+    background-color: rgba(233, 233, 233,0.6);
+    /*height:550px;*/
+    width:400px;
+    max-width:100%;
+    margin: auto;
+    margin-top:25px;
+    padding:35px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    position: relative;
+}
+
+.formulario_label, .formulario_input{
+    display: block;
+    width: 100%;
+    font-size:20px;
+}
+.formulario_label{
+    width:8%;
+    font-size:15px;
+    font-family:"COOPER BLACK";
+
+}
+.formulario_input{
+height: 30px;
+font-size:12px;
+}
+.boton{
+    display: block;
+    width:75%;
+}
+.formulario_input{
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    background:rgba(255, 255, 255, 0.0);
+    border:none;
+    border-bottom: 1px solid Black;
+}
+.formulario_label{
+    padding-left:15px;
+    position: absolute;
+    margin-top: -65px;
+    /*z-index:-20px;*/
+    color: rgba(0, 0, 0, 0.6);
+    transition: all 0.2s;
+}
+.boton{
+        padding:10px 20px;
+        cursor:pointer;
+        border:none;
+        font-family: "COOPER BLACK";
+        border-radius: 6px;
+        border-color:rgba(0, 0, 0, 0.1);
+        background-color:rgba(233, 233, 233,0.6);
+        text-decoration: none;
+        color:black;
+        font-size:15px;
+}
+
+.formulario_input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.0);
+}
+.formulario_input:focus + .formulario_label{
+    margin-top: -93px;
+}
+.fijar{
+    margin-top:-93px;
+}
+.olvide_contra{
+    color: rgba(5, 126, 21, 0.8);
+    text-decoration:none;
+    text-align:center;
+    font-family: "Segoe UI Black";
+    font-size:13px;
+
+}
+.isotipo{
+    max-width: 110%;
+    width:100px;
+    height:110px;
+    margin-top:10px;
+    margin-bottom:25px;
+
+}
+
+.boton:hover{
+    width:87%;
+    transition:0.5s;
+    font-size: 18px;
+    text-transform:uppercase;
+}
+
+.pregunta_dos{
+    text-align: center;
+    font-size:13px;
+    color:rgba(0, 0, 0, 0.8);
+    text-decoration:none;
+    font-family: "Segoe UI Black";
+}
+
+
+/* Seleccionar el tipo de usuario*/
+
+.mensaje_usuario{
+    font-size:19px;
+    font-family: "BELLFOODS";
+    color:black;
+    text-align: center;
+}
+
+/*Registro de menú*/
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos_menu.css">
+    </head>
+    <body class="fondo">
+        <style>
+                .fondo {
+                /*background-color:rgb(252, 128, 56);*/
+                 background-image:url(imagenes/backfood.jpg);
+                 background-repeat:no-repeat;
+                 background-size:100%;
+                 min-width: 100%;
+                 max-width:100%;
+                 min-height:60%;
+                 max-height:100%;
+                 background-position: center;
+                 background-attachment: fixed;
+                } 
+
+        </style>
+
+
+
+      <img class="izquierda" src="imagenes/backgr.jpg">
+      <img class="logos" src="imagenes/logoprueba.png"> 
+
+      <section class="seccion_uno">
+        <h2 class="h2u">Registra un nuevo platillo</h2>
+        <form class="formulario_dos" action="registro_menu.html" method="POST">
+          <label class="nombre" >Nombre del platillo:</label>
+            <input type="text" class="imenu" name="nom"><br>
+          <label class="costos">Costo:</label>
+            <input type="number" class="imenu" name="cost"><br>
+          <label class="description" >Descripción:</label>
+            <input type="text" class="imenu" name="desc"><br>
+          <label class="emenu">Ingredientes:</label>
+            <input type="text" class="imenu" name="ing"><br>
+          <label class="filea">Imagen del platillo</label>
+            <input type="file" class="inimage" name="imagen"> <br> 
+          <center><input type="submit" value="Registrar" class="boton"></center>
+          
+        </form>
+      </section>
+    </body>
+</html>
