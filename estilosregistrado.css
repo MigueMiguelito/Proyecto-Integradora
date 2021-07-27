@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ :root {
+    --colorTexto: #161616b0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(358, 89%, 72%, 0.555), hsla(42, 94%, 75%, 0.555), hsla(144, 100%, 89%, 0.555)), url(../content/assets/abstract_wal.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(358, 89%, 72%, 0.555), hsla(42, 94%, 75%, 0.555), hsla(144, 100%, 89%, 0.555)), url(../content/assets/abstract_wal.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(31, 30, 30);
+}
+
+.caja1 {
+    background: rgb(255, 255, 255);
+    padding: 40px 0;
+    box-shadow: 0 0 7px 0 rgb(245, 242, 242);
+    border-radius: 9px;
+    width: 800px;
+}
+
+
+p {
+    text-align: center;
+}
+
+button {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    border: 0;
+    font-weight: bold;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: rgb(73, 71, 73);
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+button:hover {
+    color: white;
+   background: #333;
+    transition: .5s ease-in;
+}
+
+@media screen and(max-width:500px) {
+    form {
+        width: 80%;
+    }
+}
