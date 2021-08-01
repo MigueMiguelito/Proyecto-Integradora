@@ -1,0 +1,30 @@
+.Relativo{
+    border: 1px solid Black;
+    width: 350px;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    position: relative;
+    left: 900px;
+    bottom: 270px;
+    
+}
+
+.Relativo2{
+    border: 1px solid Black;
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    position: relative;
+    left: 600px;
+    bottom: -10px;
+    
+    
+}
+body {
+  background-color: #C6FFDD;
+  
+}
