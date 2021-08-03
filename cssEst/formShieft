@@ -1,0 +1,89 @@
+<! doctype html >
+<html lang="es">
+
+<cabeza>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <título>DeliShop&reg; - Registro</título>
+    <link rel="hoja de estilo" href="cssEst/prueba.css">
+    <link rel="icono de acceso directo" type="img/x-icon" href="Imagen/logoprueba.png">
+</cabeza>
+
+<cuerpo>
+    <form action="formu.php" method="POST">
+        <p>
+            <img id="Logo" src="Imagen/logoprueba.png" alt="DeliShop" width="60">
+
+        </p>
+        <Br>
+        <div class="forma">
+            <h1>Registrate como DUEÑO</h1>
+            <Br>
+            <h2>Datos personales</h2>
+            <div clase="grupo">
+                < Input Type="text" name="nom" id="" required maxlength="50"><span class="barra"></span>
+                <label for="">Nombre</label>
+            </Div>
+            <div clase="grupo">
+                < input type="text" name="ap" id="" required maxlength="50"><span class="barra"></span>
+                <label for="">Apellido Paterno</label>
+            </Div>
+            <div clase="grupo">
+                < Input Type="text" name="am" id="" required maxlength="50"><span class="barra"></span>
+                <label for="">Apellido Materno</label>
+            </Div>
+            <div class="grupo-seleccionar">
+                <p class="eti">Genero</p>
+                <select name="genero" id="sexo">
+                    <Option Value="null"></option>
+                    <option value="M">Masculino</opción>
+                    <option value="F">Femenino</opción>
+                    
+                </escoger>
+            </Div>
+            <!--<div class="grupo">
+                <input type="file" name="fotop">
+                <label for="">Foto de Perfil</label>
+            </div>-->
+            <div clase="grupo">
+                <Input Type="Date" Name="Born" ID=""><span Class="Barra"></span>
+                <label for="">Fecha de nacimiento</label>
+            </Div>
+            <div clase="grupo">
+                < Input Type="Email" Name="Em" ID="" Required MaxLength="80"><span Class="Barra"></span>
+                <etiqueta para="">etiqueta de correo electrónico</>
+            </Div>
+            <!--<div class="grupo">
+                <input type="text" name="exp" id="" required maxlength="60"><span class="barra"></span>
+                <label for="">Experiencia laboral</label>
+            </div>-->
+
+            <div clase="grupo">
+                < Input Type="Password" Name="Pass" ID="" Required MaxLength="32"><span Class="Barra"></span>
+                <label for="">Contrase&ntilde;a</label>
+            </Div>
+            <div clase="grupo">
+                <Input Type="Password" Name="Nomps" ID="" Required MaxLength="32"><span class="barra"></span>
+                <label for="">Confirma tu contrase&ntilde;a</label>
+            </Div>
+
+            <!--<h2>Datos Vehiculares</h2>
+ <div class="grupo">
+                <input type="text" name="licencia" id="Tipo"><span class="barra"></span>
+                <label for="E1">Tipo de licencia</label>
+            </div>
+ <div class="grupo">
+                <input type="text" name="car" id="" required><span class="barra"></span>
+                <label for="">Vehiculo</label>
+            </div>-->
+            <Div>
+                <Button Class="BTN" Name="Registrar" Type="Submit">Registrarme</Button>
+            </Div>
+
+        </Div>
+    </forma>
+    <script src="main.js"></script>
+</cuerpo>
+
+</HTML>
